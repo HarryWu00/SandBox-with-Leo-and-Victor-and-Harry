@@ -1,0 +1,32 @@
+/*Removes default on the body-tag*/
+body{
+    margin:0;
+    padding: 0;
+}
+ section {
+   width: 1345px;
+   height: 1000px;
+   background-color: #442244;
+ }
+ article {
+   height: 300px;
+ }
+
+div.box {
+  width: 30px;
+  height: 30px;
+  border:gray;
+  background-color: #228822;
+}
+div.left{}
+
+div.middle{}
+
+div.right{}
+
+div.box top middle {
+  width: 30px;
+  height: 30px;
+  border: gray;
+  background-color: #882222;
+}
