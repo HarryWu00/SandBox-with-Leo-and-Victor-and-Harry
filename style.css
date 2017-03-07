@@ -1,32 +1,36 @@
 /*Removes default on the body-tag*/
 body{
     margin:0;
-    padding: 0;
+    padding:0;
 }
  section {
    width: 1345px;
    height: 1000px;
-   background-color: #442244;
  }
  article {
    height: 300px;
+   width: inherit;
  }
 
 div.box {
-  width: 30px;
-  height: 30px;
-  border:gray;
-  background-color: #228822;
+  float: left;
+  width: 300px;
+  height: 300px;
+  border: 10px solid grey;
+  background-color: #222222;
 }
-div.left{}
+div.left{
+  width: 33.3%;
+  height: 300px;
+  border: 10px solid grey;
+  background-color: #cc3399;
+}
 
-div.middle{}
+div.middle{
+  width: 33.3%;
+  height: 300px;
+  border: 10px solid grey;
+  background-color: #009933;
+}
 
 div.right{}
-
-div.box top middle {
-  width: 30px;
-  height: 30px;
-  border: gray;
-  background-color: #882222;
-}
