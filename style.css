@@ -12,7 +12,7 @@ body{
    width: inherit;
  }
 
-div.box {
+div.box{
   float: left;
   width: 300px;
   height: 300px;
@@ -33,4 +33,9 @@ div.middle{
   background-color: #009933;
 }
 
-div.right{}
+div.right{
+  width: 33.3%;
+  height: 300px;
+  border: 10px solid grey;
+  background-color: #0099cc;
+}
